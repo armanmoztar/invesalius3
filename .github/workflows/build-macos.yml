@@ -12,12 +12,7 @@ jobs:
       - name: Set Up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
-
-      - name: Install System Dependencies
-        run: |
-          brew install gcc
-          brew install pkg-config
+          python-version: "3.11"
 
       - name: Install Python Dependencies
         run: |
